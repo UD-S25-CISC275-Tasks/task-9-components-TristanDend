@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { QuestionType } from "../interfaces/question";
-import { isVisible } from "@testing-library/user-event/dist/utils";
 
 export function ChangeType(): React.JSX.Element {
     const [questionType, changeQuestion] = useState<QuestionType>(
