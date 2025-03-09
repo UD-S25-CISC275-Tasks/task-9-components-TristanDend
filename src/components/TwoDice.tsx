@@ -17,9 +17,12 @@ export function TwoDice(): React.JSX.Element {
 
     return (
         <span>
-            <span data-testid="left-die">{leftDie}</span>
+            <span data-testid="left-die">
+                {leftDie}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
             <span data-testid="right-die">{rightDie}</span>
-            <p>{leftDie}</p>
+            <p></p>
             <Button
                 onClick={() => {
                     rollLeftDie(d6);
@@ -27,7 +30,6 @@ export function TwoDice(): React.JSX.Element {
             >
                 Roll Left
             </Button>
-            <p>{rightDie}</p>
             <Button
                 onClick={() => {
                     rollRightDie(d6);

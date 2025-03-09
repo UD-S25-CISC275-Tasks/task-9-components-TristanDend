@@ -18,9 +18,7 @@ function App(): React.JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-<<<<<<< HEAD
-=======
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -28,7 +26,6 @@ function App(): React.JSX.Element {
             <hr></hr>
             <ShoveBox></ShoveBox>
             <hr></hr>
->>>>>>> origin/task-components
             <Counter></Counter>
             <hr />
             <RevealAnswer></RevealAnswer>
